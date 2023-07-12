@@ -1,0 +1,31 @@
+.Dialog {
+  padding: 24px;
+  color: #FFF;
+}
+.Dialog h2 {
+  margin-bottom: 12px;
+}
+.Dialog__tables {
+  height: 30vh;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  padding-bottom: 12px;
+}
+.Dialog__tables ul {
+  width: 212px;
+}
+.Dialog__tables ul li:first-child {
+  border: none;
+}
+.Dialog__tables ul li {
+  width: 212px;
+  border: 1px solid #fff;
+  padding: 8px;
+  overflow-x: hidden;
+}
+.Dialog__NewData {
+  margin-top: 30px;
+  height: 210px;
+  overflow-y: scroll;
+}

@@ -1,0 +1,58 @@
+@import url('./Button.css');
+@import url('./Input.css');
+@import url('./Dialog.css');
+@import url('./DialogCard.css');
+
+.AppContainer {
+  width: 100%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  background-color: #232323;
+  box-shadow: 3px 3px 14px 3px #000;
+  border-radius: 8px;
+}
+
+.AppContainer .AppContainer--opts {
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid #e7e7e7;
+  padding-bottom: 12px;
+}
+
+.AppContainer--main {
+  display: flex;
+  justify-content: space-between;
+  height: 95%;
+  padding-top: 12px;
+}
+.main__dialog-list {
+  width: 30%;
+  max-width: 300px;
+  overflow-y: scroll;
+  padding-bottom: 12px;
+}
+.main__dialog-data {
+  width: calc(100% - 300px);
+}
+.main__dialog-list.overflow-scroll {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.main__dialog-list.overflow-hidden {
+  overflow: hidden;
+}
+.list__dialog-container {
+  display: flex;
+  flex-direction: column;
+  padding-right: 8px;
+  gap: 16px;
+}
+.opts--left ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
